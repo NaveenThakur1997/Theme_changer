@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: rgb(39, 38, 38); */
+
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 231, 231);
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* overflow-x: hidden; */
+    
+
+}
+
+
+
+.Left{
+    background-color: rgb(234, 231, 231);
+    height: 100%;
+    width: 75%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: -2px;
+    height: 450px;
+    width: 350px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.card>img{
+    border-radius: 3px;
+}
+
+.card>button{
+    padding: 10px 20px;
+    background-color: rgba(17, 223, 17, 0.795);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.Right{
+    top: -110%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s ease;
+}
+
+.cross{
+    display: flex;
+    justify-content: right;
+    padding: 5%;
+    width: 100%;
+    height: 10%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#open{
+    /* display: none; */
+    position: absolute;
+    z-index: 10;
+    right: 6%;
+    top: 113%;
+}
+
+.cross>i:hover{
+    cursor: pointer;
+}
+
+.Right>.one{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+
+.Right>button{
+    font-size: 26px;
+    margin-top: 5%;
+    background-color: #ffff;
+    border: none;
+    /* border-bottom: 1px solid grey; */
+    /* border: 1px solid red; */
+    width: 90%;
+    margin-left: 5%;
+}
+
+.colors{
+    margin-top: 5%;
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 2px solid red; */
+    
+}
+
+.box{
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.days>button{
+    margin-top: 3%;
+    padding: 7px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 10%;
+    border: none;
+}
+
+.days>button:hover{
+    cursor: pointer;
+}
+.days{
+    /* border: 2px solid red; */
+    padding-left: 10%;
+    padding-top: 2.5%;
+}
+
+.day{
+    background-color: rgb(246, 227, 19);
+}
+.night{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 27, 26);
+}
+
+
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.lightgreen{
+ background-color: lightgreen;
+}
+
+.orange{
+ background-color: orange;
+}
+
+.voilet{
+ background-color: violet;
+}
+
+.lightseagreen{
+    background-color: lightseagreen;
+}
+
+.yellow{
+background-color: yellow;
+}
+
+.red{
+background-color: red;
+}
+
+.tomato{
+ background-color: tomato;
+}
+
+/* .Left{
+    background-color: rgba(41, 36, 36, 0.893);
+}
+.Right{
+    background-color: rgba(41, 36, 36, 0.893);
+
+} */
